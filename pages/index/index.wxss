@@ -1,0 +1,39 @@
+/**index.wxss**/
+.search-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-color: #e08031;*/
+  background-color: #fff;
+  color: #fff;
+  height: 80rpx;
+  padding: 10rpx 20rpx;
+  z-index: 100;
+  border-bottom: 1px solid #d9d9d9;
+}
+.search-container input {
+  background: #fff;
+  color: black;
+  padding: 5px 10rpx;
+  height: 40rpx;
+  width: 100%;
+  border-radius: 8rpx;
+}
+
+.search-container icon {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  margin-top: -20rpx;
+  right: 40rpx;
+}
+.bg{
+  margin: 1%;
+  background: #d3d3d3;
+  height: 500rpx;
+  width: 100%;
+  text-align: center;
+  font-size: 50rpx;
+  color: white;
+}

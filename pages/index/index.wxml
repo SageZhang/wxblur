@@ -1,0 +1,11 @@
+
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <view class="search-container">
+      <input class="search-bar" type="text" bindfocus="focusInputEvent" bindblur="blurInputEvent" placeholder="搜索"></input>
+      <icon type="search" size="20" />
+    </view>
+  </view>
+  <view class="bg" style="filter:blur({{view.Filter}}px);opacity:{{view.Opacity}}">What’s in a name? That which we call a rose by any other word would smell as sweet.</view>
+</view>
